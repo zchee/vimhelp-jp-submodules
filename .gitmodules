@@ -102,3 +102,11 @@
 	path = Shougo/dein.vim
 [submodule "Shougo/dein.vim"]
 	url = https://github.com/Shougo/dein.vim
+[submodule "Shougo/dein"]
+	path = Shougo/dein
+[submodule "Shougo/dein"]
+	url = https://github.com/Shougo/dein
+[submodule "mattn/emmet-vim"]
+	path = mattn/emmet-vim
+[submodule "mattn/emmet-vim"]
+	url = https://github.com/mattn/emmet-vim
