@@ -1,0 +1,96 @@
+[submodule "Shougo/deoplete.nvim"]
+	path = Shougo/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim
+[submodule "Shougo/neco-vim"]
+	path = Shougo/neco-vim
+	url = https://github.com/Shougo/neco-vim
+[submodule "Shougo/neobundle.vim"]
+	path = Shougo/neobundle.vim
+	url = https://github.com/Shougo/neobundle.vim
+[submodule "Shougo/neocomplete.vim"]
+	path = Shougo/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim
+[submodule "Shougo/neosnippet-snippets.vim"]
+	path = Shougo/neosnippet-snippets.vim
+	url = https://github.com/Shougo/neosnippet-snippets
+[submodule "Shougo/neosnippet.vim"]
+	path = Shougo/neosnippet.vim
+	url = https://github.com/Shougo/neosnippet.vim
+[submodule "Shougo/unite-outline.vim"]
+	path = Shougo/unite-outline.vim
+	url = https://github.com/Shougo/unite-outline
+[submodule "Shougo/unite.vim"]
+	path = Shougo/unite.vim
+	url = https://github.com/Shougo/unite.vim
+[submodule "Shougo/vimfiler.vim"]
+	path = Shougo/vimfiler.vim
+	url = https://github.com/Shougo/vimfiler.vim
+[submodule "Shougo/vimproc.vim"]
+	path = Shougo/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim
+[submodule "Shougo/vimshell.vim"]
+	path = Shougo/vimshell.vim
+	url = https://github.com/Shougo/vimshell.vim
+[submodule "ctrlpvim/ctrlp.vim"]
+	path = ctrlpvim/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "davidhalter/jedi-vim"]
+	path = davidhalter/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim
+[submodule "h1mesuke/vim-alignta"]
+	path = h1mesuke/vim-alignta
+	url = https://github.com/h1mesuke/vim-alignta
+[submodule "kana/vim-operator-replace"]
+	path = kana/vim-operator-replace
+	url = https://github.com/kana/vim-operator-replace
+[submodule "kana/vim-operator-user"]
+	path = kana/vim-operator-user
+	url = https://github.com/kana/vim-operator-user
+[submodule "kana/vim-textobj-fold"]
+	path = kana/vim-textobj-fold
+	url = https://github.com/kana/vim-textobj-fold
+[submodule "kana/vim-textobj-indent"]
+	path = kana/vim-textobj-indent
+	url = https://github.com/kana/vim-textobj-indent
+[submodule "kana/vim-textobj-lastpat"]
+	path = kana/vim-textobj-lastpat
+	url = https://github.com/kana/vim-textobj-lastpat
+[submodule "kana/vim-textobj-user"]
+	path = kana/vim-textobj-user
+	url = https://github.com/kana/vim-textobj-user
+[submodule "lambdalisue/vim-gista"]
+	path = lambdalisue/vim-gista
+	url = https://github.com/lambdalisue/vim-gista
+[submodule "lambdalisue/vim-gita"]
+	path = lambdalisue/vim-gita
+	url = https://github.com/lambdalisue/vim-gita
+[submodule "t9md/vim-quickhl"]
+	path = t9md/vim-quickhl
+	url = https://github.com/t9md/vim-quickhl
+[submodule "thinca/vim-quickrun"]
+	path = thinca/vim-quickrun
+	url = https://github.com/thinca/vim-quickrun
+[submodule "thinca/vim-ref"]
+	path = thinca/vim-ref
+	url = https://github.com/thinca/vim-ref
+[submodule "thinca/vim-themis"]
+	path = thinca/vim-themis
+	url = https://github.com/thinca/vim-themis
+[submodule "tyru/open-browser-github.vim"]
+	path = tyru/open-browser-github.vim
+	url = https://github.com/tyru/open-browser-github.vim
+[submodule "tyru/open-browser.vim"]
+	path = tyru/open-browser.vim
+	url = https://github.com/tyru/open-browser.vim
+[submodule "vim-jp/vimdoc-ja"]
+	path = vim-jp/vimdoc-ja
+	url = https://github.com/vim-jp/vimdoc-ja
+[submodule "vim-jp/vital.vim"]
+	path = vim-jp/vital.vim
+	url = https://github.com/vim-jp/vital.vim
+[submodule "neovim"]
+	path = neovim
+	url = https://github.com/neovim/neovim
+[submodule "vim"]
+	path = vim
+	url = https://github.com/vim/vim
