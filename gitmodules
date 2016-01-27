@@ -1,0 +1,77 @@
+#!/bin/bash
+
+# rm -rf */ .gitmodules tags tags-ja
+
+git init
+git submodule add --depth 1 https://github.com/Shougo/deoplete.nvim Shougo/deoplete.nvim
+git submodule add --depth 1 https://github.com/Shougo/neco-vim Shougo/neco-vim
+git submodule add --depth 1 https://github.com/Shougo/neobundle.vim Shougo/neobundle.vim
+git submodule add --depth 1 https://github.com/Shougo/neocomplete.vim Shougo/neocomplete.vim
+git submodule add --depth 1 https://github.com/Shougo/neosnippet-snippets Shougo/neosnippet-snippets.vim
+git submodule add --depth 1 https://github.com/Shougo/neosnippet.vim Shougo/neosnippet.vim
+git submodule add --depth 1 https://github.com/Shougo/unite-outline Shougo/unite-outline.vim
+git submodule add --depth 1 https://github.com/Shougo/unite.vim Shougo/unite.vim
+git submodule add --depth 1 https://github.com/Shougo/vimfiler.vim Shougo/vimfiler.vim
+git submodule add --depth 1 https://github.com/Shougo/vimproc.vim Shougo/vimproc.vim
+git submodule add --depth 1 https://github.com/Shougo/vimshell.vim Shougo/vimshell.vim
+git submodule add --depth 1 https://github.com/ctrlpvim/ctrlp.vim ctrlpvim/ctrlp.vim
+git submodule add --depth 1 https://github.com/davidhalter/jedi-vim davidhalter/jedi-vim
+git submodule add --depth 1 https://github.com/h1mesuke/vim-alignta h1mesuke/vim-alignta
+git submodule add --depth 1 https://github.com/kana/vim-operator-replace kana/vim-operator-replace
+git submodule add --depth 1 https://github.com/kana/vim-operator-user kana/vim-operator-user
+git submodule add --depth 1 https://github.com/kana/vim-textobj-fold kana/vim-textobj-fold
+git submodule add --depth 1 https://github.com/kana/vim-textobj-indent kana/vim-textobj-indent
+git submodule add --depth 1 https://github.com/kana/vim-textobj-lastpat kana/vim-textobj-lastpat
+git submodule add --depth 1 https://github.com/kana/vim-textobj-user kana/vim-textobj-user
+git submodule add --depth 1 https://github.com/lambdalisue/vim-gista lambdalisue/vim-gista
+git submodule add --depth 1 https://github.com/lambdalisue/vim-gita lambdalisue/vim-gita
+git submodule add --depth 1 https://github.com/t9md/vim-quickhl t9md/vim-quickhl
+git submodule add --depth 1 https://github.com/thinca/vim-quickrun thinca/vim-quickrun
+git submodule add --depth 1 https://github.com/thinca/vim-ref thinca/vim-ref
+git submodule add --depth 1 https://github.com/thinca/vim-themis thinca/vim-themis
+git submodule add --depth 1 https://github.com/tyru/open-browser-github.vim tyru/open-browser-github.vim
+git submodule add --depth 1 https://github.com/tyru/open-browser.vim tyru/open-browser.vim
+git submodule add --depth 1 https://github.com/vim-jp/vimdoc-ja vim-jp/vimdoc-ja
+git submodule add --depth 1 https://github.com/vim-jp/vital.vim vim-jp/vital.vim
+git submodule add --depth 1 https://github.com/neovim/neovim neovim
+git submodule add --depth 1 https://github.com/vim/vim vim
+# parallel \
+#   'git submodule add --depth=1' https://github.com/{/} {.} ::: \
+#     Shougo/deoplete.nvim.git \
+#     Shougo/neco-vim.git \
+#     Shougo/neobundle.vim.git \
+#     Shougo/neocomplete.vim.git \
+#     Shougo/neosnippet-snippets.git \
+#     Shougo/neosnippet.vim.git \
+#     Shougo/unite-outline.git \
+#     Shougo/unite.vim.git \
+#     Shougo/vimfiler.vim.git \
+#     Shougo/vimproc.vim.git \
+#     Shougo/vimshell.vim.git \
+#     ctrlpvim/ctrlp.vim.git \
+#     davidhalter/jedi-vim.git \
+#     h1mesuke/vim-alignta.git \
+#     kana/vim-operator-replace.git \
+#     kana/vim-operator-user.git \
+#     kana/vim-textobj-fold.git \
+#     kana/vim-textobj-indent.git \
+#     kana/vim-textobj-lastpat.git \
+#     kana/vim-textobj-user.git \
+#     lambdalisue/vim-gista.git \
+#     lambdalisue/vim-gita.git \
+#     t9md/vim-quickhl.git \
+#     thinca/vim-quickrun.git \
+#     thinca/vim-ref.git \
+#     thinca/vim-themis.git \
+#     tyru/open-browser-github.vim.git \
+#     tyru/open-browser.vim.git \
+#     vim-jp/vimdoc-ja.git \
+#     vim-jp/vital.vim.git \
+#     neovim/neovim.git \
+#     vim/vim.git
+
+mv .git ../
+rm -rf */**/*
+mv ../.git .
+
+git submodule status
