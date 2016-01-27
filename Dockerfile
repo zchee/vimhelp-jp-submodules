@@ -9,7 +9,7 @@ COPY . /usr/src/doc
 RUN set -ex \
 	&& sed -i 's/http:\/\/archive.ubuntu.com\/ubuntu/mirror:\/\/mirrors.ubuntu.com\/mirrors.txt/g' /etc/apt/sources.list \
 	&& apt-get update \
-	&& apt-get install -y --no-install-recommends \
+	&& apt-get install -y \
 		git vim \
 	\
 	&& cd /usr/src/doc \

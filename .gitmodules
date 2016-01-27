@@ -98,3 +98,7 @@
 	path = Shougo/echodoc
 [submodule "Shougo/echodoc"]
 	url = https://github.com/Shougo/echodoc
+[submodule "Shougo/dein.vim"]
+	path = Shougo/dein.vim
+[submodule "Shougo/dein.vim"]
+	url = https://github.com/Shougo/dein.vim
