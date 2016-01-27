@@ -110,3 +110,7 @@
 	path = mattn/emmet-vim
 [submodule "mattn/emmet-vim"]
 	url = https://github.com/mattn/emmet-vim
+[submodule "ujihisa/neoclojure.vim"]
+	path = ujihisa/neoclojure.vim
+[submodule "ujihisa/neoclojure.vim"]
+	url = https://github.com/ujihisa/neoclojure.vim
