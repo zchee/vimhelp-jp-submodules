@@ -1,4 +1,4 @@
-FROM ubuntu-debootstrap:wily
+FROM ubuntu:wily
 MAINTAINER zchee <k@zchee.io>
 
 # Copy all current directory
@@ -7,7 +7,6 @@ COPY . /usr/src/doc
 # Install dependency packages
 # Generate vim helptags use update.vim
 RUN set -ex \
-	&& cat /etc/apt/sources.list \
 	&& sed -i 's/http:\/\/archive.ubuntu.com\/ubuntu/mirror:\/\/mirrors.ubuntu.com\/mirrors.txt/g' /etc/apt/sources.list \
 	&& apt-get update \
 	&& apt-get install -y --no-install-recommends \
