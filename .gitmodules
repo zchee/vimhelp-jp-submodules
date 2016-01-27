@@ -94,3 +94,7 @@
 [submodule "vim"]
 	path = vim
 	url = https://github.com/vim/vim
+[submodule "Shougo/echodoc"]
+	path = Shougo/echodoc
+[submodule "Shougo/echodoc"]
+	url = https://github.com/Shougo/echodoc
