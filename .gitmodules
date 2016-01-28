@@ -142,3 +142,11 @@
 	path = haya14busa/incsearch.vim
 [submodule "haya14busa/incsearch.vim"]
 	url = https://github.com/haya14busa/incsearch.vim
+[submodule ""]
+	path = ""
+	url = git@github.com:.git
+[submodule ""]
+[submodule "haya14busa/vim-operator-flashy"]
+	path = haya14busa/vim-operator-flashy
+[submodule "haya14busa/vim-operator-flashy"]
+	url = https://github.com/haya14busa/vim-operator-flashy
