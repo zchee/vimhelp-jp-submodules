@@ -114,3 +114,7 @@
 	path = ujihisa/neoclojure.vim
 [submodule "ujihisa/neoclojure.vim"]
 	url = https://github.com/ujihisa/neoclojure.vim
+[submodule "tyru/caw.vim"]
+	path = tyru/caw.vim
+[submodule "tyru/caw.vim"]
+	url = https://github.com/tyru/caw.vim
