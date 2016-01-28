@@ -138,3 +138,7 @@
 	path = osyo-manga/vim-marching
 [submodule "osyo-manga/vim-marching"]
 	url = https://github.com/osyo-manga/vim-marching
+[submodule "haya14busa/incsearch.vim"]
+	path = haya14busa/incsearch.vim
+[submodule "haya14busa/incsearch.vim"]
+	url = https://github.com/haya14busa/incsearch.vim
