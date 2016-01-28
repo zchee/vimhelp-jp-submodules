@@ -134,3 +134,7 @@
 	path = osyo-manga/vim-over
 [submodule "osyo-manga/vim-over"]
 	url = https://github.com/osyo-manga/vim-over
+[submodule "osyo-manga/vim-marching"]
+	path = osyo-manga/vim-marching
+[submodule "osyo-manga/vim-marching"]
+	url = https://github.com/osyo-manga/vim-marching
