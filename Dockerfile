@@ -11,9 +11,10 @@ RUN set -ex \
 	&& apt-get install -y \
 		git vim \
 	\
-	&& git clone git@github.com:zchee/vimhelp-jp-submodules.git /usr/src/doc \
+	&& git clone https://github.com/zchee/vimhelp-jp-submodules.git /usr/src/doc \
 	&& cd /usr/src/doc \
 	&& git submodule update --init --force \
+	&& git remote set-url origin git@github.com:zchee/vimhelp-jp-submodules.git \
 	\
 	&& vim -c "source %" -c "qa!" -- update.vim >/dev/null
 
