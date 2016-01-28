@@ -130,3 +130,7 @@
 	path = osyo-manga/vim-monster
 [submodule "osyo-manga/vim-monster"]
 	url = https://github.com/osyo-manga/vim-monster
+[submodule "osyo-manga/vim-over"]
+	path = osyo-manga/vim-over
+[submodule "osyo-manga/vim-over"]
+	url = https://github.com/osyo-manga/vim-over
