@@ -126,3 +126,7 @@
 	path = osyo-manga/vim-watchdogs
 [submodule "osyo-manga/vim-watchdogs"]
 	url = https://github.com/osyo-manga/vim-watchdogs
+[submodule "osyo-manga/vim-monster"]
+	path = osyo-manga/vim-monster
+[submodule "osyo-manga/vim-monster"]
+	url = https://github.com/osyo-manga/vim-monster
