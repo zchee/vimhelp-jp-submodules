@@ -118,3 +118,7 @@
 	path = tyru/caw.vim
 [submodule "tyru/caw.vim"]
 	url = https://github.com/tyru/caw.vim
+[submodule "thinca/vim-singleton"]
+	path = thinca/vim-singleton
+[submodule "thinca/vim-singleton"]
+	url = https://github.com/thinca/vim-singleton
