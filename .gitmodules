@@ -122,3 +122,7 @@
 	path = thinca/vim-singleton
 [submodule "thinca/vim-singleton"]
 	url = https://github.com/thinca/vim-singleton
+[submodule "osyo-manga/vim-watchdogs"]
+	path = osyo-manga/vim-watchdogs
+[submodule "osyo-manga/vim-watchdogs"]
+	url = https://github.com/osyo-manga/vim-watchdogs
