@@ -166,3 +166,7 @@
 	path = mattn/gist-vim
 [submodule "mattn/gist-vim"]
 	url = https://github.com/mattn/gist-vim
+[submodule "mattn/hahhah-vim"]
+	path = mattn/hahhah-vim
+[submodule "mattn/hahhah-vim"]
+	url = https://github.com/mattn/hahhah-vim
