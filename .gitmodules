@@ -154,3 +154,7 @@
 	path = Shougo/neossh.vim
 [submodule "Shougo/neossh.vim"]
 	url = https://github.com/Shougo/neossh.vim
+[submodule "tyru/eskk.vim"]
+	path = tyru/eskk.vim
+[submodule "tyru/eskk.vim"]
+	url = https://github.com/tyru/eskk.vim
