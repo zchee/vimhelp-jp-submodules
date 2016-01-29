@@ -162,3 +162,7 @@
 	path = kamichidu/vim-vdbc
 [submodule "kamichidu/vim-vdbc"]
 	url = https://github.com/kamichidu/vim-vdbc
+[submodule "mattn/gist-vim"]
+	path = mattn/gist-vim
+[submodule "mattn/gist-vim"]
+	url = https://github.com/mattn/gist-vim
