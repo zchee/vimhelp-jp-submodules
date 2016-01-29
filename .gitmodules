@@ -150,3 +150,7 @@
 	path = haya14busa/vim-operator-flashy
 [submodule "haya14busa/vim-operator-flashy"]
 	url = https://github.com/haya14busa/vim-operator-flashy
+[submodule "Shougo/neossh.vim"]
+	path = Shougo/neossh.vim
+[submodule "Shougo/neossh.vim"]
+	url = https://github.com/Shougo/neossh.vim
